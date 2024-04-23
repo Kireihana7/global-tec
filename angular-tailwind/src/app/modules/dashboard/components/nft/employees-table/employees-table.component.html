@@ -1,0 +1,31 @@
+<div class="flex-col rounded-lg bg-background px-8 py-8 sm:flex-row">
+
+
+  <div class="relative overflow-x-auto">
+    <table class="w-full table-auto">
+      <!--Table head-->
+      <thead class="text-xs uppercase text-muted-foreground">
+        <tr>
+          <th class="py-3 text-left">Primer nombre</th>
+          <th class="py-3 text-right">Segundo nombre</th>
+          <th class="py-3 text-right">Apellido </th>
+          <th class="py-3 text-right">Otros nombres</th>
+          <th class="py-3 text-right">Ciudadania</th>
+          <th class="py-3 text-right">ID</th>
+          <th class="py-3 text-right">Tipo de ID</th>
+          <th class="py-3 text-right">Email</th>
+        </tr>
+      </thead>
+      <!--end Table head-->
+      <!--Table body-->
+      <tbody>
+        <tr
+          *ngFor="let auction of activeAuction"
+          [auction]="auction"
+          nft-auctions-table-item
+          class="border-b border-dashed border-border hover:bg-card"></tr>
+      </tbody>
+      <!--end::Table body-->
+    </table>
+  </div>
+</div>
