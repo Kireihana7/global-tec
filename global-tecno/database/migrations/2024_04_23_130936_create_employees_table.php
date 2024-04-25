@@ -22,6 +22,9 @@ return new class extends Migration
             $table->string('personal_ID', 20);
             $table->string('type_ID', 50);
             $table->string('email', 100);
+            $table->dateTime('started_in', precision: 0);
+            $table->string('area', 100);
+            $table->string('status', 100);
             $table->timestamps();
         });
     }

@@ -1,36 +1,19 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="mx-auto px-4 py-4 sm:px-8 lg:container">
+<div class="mx-auto px-1 py-1 sm:px-2 lg:container-fluid">
   <!-- Header -->
 
   <!-- end Header -->
 
-  <div nft-auctions-table class="md:col-span-2 xl:col-span-3"></div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8"> <!-- Utilizamos una cuadrícula para dividir en dos columnas en dispositivos medianos (md) -->
+    <!-- Tabla de empleados -->
+    <div employee-table class="md:col-span-1.5"></div> <!-- Establecemos que la tabla ocupe una columna en dispositivos medianos -->
+
+    <!-- Detalles del empleado -->
+    <div> <!-- No especificamos clases de columna para que ocupe toda la anchura disponible en dispositivos medianos -->
+      <div employee-detail [employee]="employees[0]"></div>
+    </div>
+  </div>
 
   <!-- Separación entre los dos grupos de tarjetas -->
   <div class="my-8 border-b-2 border-gray-200"></div>
-
-  <div >
-    <!-- Dual Card -->
-    <div nft-dual-card [nft]="nft[0]" class="md:col-span-2"></div>
-  </div>
 </div>
 

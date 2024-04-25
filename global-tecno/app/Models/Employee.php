@@ -16,7 +16,10 @@ class Employee extends Model
     citizenship
     personal_ID
     type_ID
-    email'
+    email',
+    'started_in',
+    'area',
+    'status'
       ];
     use HasFactory;
 

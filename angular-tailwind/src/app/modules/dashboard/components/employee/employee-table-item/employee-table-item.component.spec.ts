@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BiddingDualCardComponent } from './nft-dual-card.component';
+import { EmployeeTableItemComponent } from './employee-table-item.component';
 
-describe('BiddingDualCardComponent', () => {
-  let component: BiddingDualCardComponent;
-  let fixture: ComponentFixture<BiddingDualCardComponent>;
+describe('EmployeeTableItemComponent', () => {
+  let component: EmployeeTableItemComponent;
+  let fixture: ComponentFixture<EmployeeTableItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-    imports: [BiddingDualCardComponent],
+    imports: [EmployeeTableItemComponent],
 }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BiddingDualCardComponent);
+    fixture = TestBed.createComponent(EmployeeTableItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

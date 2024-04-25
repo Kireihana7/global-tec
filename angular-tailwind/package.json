@@ -6,7 +6,6 @@
   "homepage": "https://github.com/luciano-work/angular-tailwind#readme",
   "repository": {
     "type": "git"
-
   },
   "keywords": [
     "angular",
@@ -16,7 +15,7 @@
     "dark mode",
     "open source"
   ],
-  "author": "Luciano Oliveira <me@lanno.dev>",
+  "author": "Daniel Pereira danielalejandro.s@gmail.com",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -45,6 +44,7 @@
     "@tailwindcss/typography": "^0.5.4",
     "angular-svg-icon": "^13.0.0",
     "apexcharts": "^3.35.3",
+    "axios": "^1.6.8",
     "ng-apexcharts": "^1.7.1",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
